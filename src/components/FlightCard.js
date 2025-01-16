@@ -14,7 +14,9 @@ const FlightOption = ({
   <div className={`flex items-center p-4 border rounded-lg mb-2 cursor-pointer hover:border-blue-500 ${selected ? 'border-blue-500 bg-blue-50' : 'border-gray-200'}`}>
     <div className="flex-1 flex items-center gap-6">
       <div className="flex flex-col items-center">
-        <div className="w-8 h-8 bg-indigo-600 rounded-sm"></div>
+        <div className="w-8 h-8 rounded-sm">
+          <img src="/IndiGo.png" alt="" />
+        </div>
         <span className="text-xs text-gray-500 mt-1">Indigo</span>
       </div>
       
